@@ -1,0 +1,89 @@
+.lp-form-9 {
+  padding: 48px 0;
+  text-align: center;
+}
+.lp-form-9__title {
+  margin: 0;
+}
+.lp-form-9__text {
+  padding: 0;
+  margin-top: 8px;
+}
+.lp-form-9-form {
+  margin-top: 48px;
+}
+.lp-form-9-form__title {
+  margin: 0;
+}
+.lp-form-9-form__subtitle {
+  padding: 0;
+}
+
+.lp-form-9 .lp-form-tpl__item-label {text-align: left;}
+.lp-form-9-form form .lp-form-tpl__button-wrapper button {
+    width: 100%;
+}
+
+.lp-form-9-form form .lp-form-tpl__button-wrapper {
+    padding: 0;
+}
+
+.lp-form-9 .lp-form-tpl__item {
+    padding-bottom: 12px;
+}
+
+.lp-form-9-form .lp-form-tpl__item._personal-bottom {
+    flex: 0 0 100%;
+}
+lp-form-9-form.lp-form-invertion-color .lp-form-tpl__success-text {
+	color: #fff;
+}
+@media all and (min-width: 600px) {
+  .lp-form-9 {
+    padding: 64px 0;
+  }
+  .lp-form-9__text {
+    margin-top: 16px;
+  }
+  .lp-form-9-form {
+    margin-top: 56px;
+  }
+  
+	.lp-form-9-form form {
+	    display: flex;
+	    flex-wrap: wrap;
+	    align-items: flex-start;
+	}
+	
+	.lp-form-9-form form .lp-form-tpl__button-wrapper {
+	    flex: 0 0 176px;
+	    margin-left: 24px;
+	    padding-top: 20px;
+	}
+	
+	.lp-form-9-form .lp-form-tpl__item {
+	    flex: 1 0 290px;
+	}
+}
+
+@media (min-width: 960px) {
+	.lp-form-9-form form .lp-form-tpl__button-wrapper {
+	    flex: 0 0 298px;
+	    margin-left: 32px;
+	    padding-top: 18px;
+	}
+	
+	.lp-form-9-form .lp-form-tpl__item {
+		flex: 1 0 460px;
+	}
+}
+@media all and (min-width: 1200px) {
+  .lp-form-9 {
+    padding: 80px 0;
+  }
+  .lp-form-9-wrapper {
+    max-width: 848px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
